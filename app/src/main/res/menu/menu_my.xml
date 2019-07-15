@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_debug"
+        android:orderInCategory="100"
+        android:title="action_delete_all"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/clearoneday"
+        android:orderInCategory="100"
+        android:title="clear before today"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/clearoneminutes"
+        android:orderInCategory="100"
+        android:title="clear before one minutes to test"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/clearlow"
+        android:orderInCategory="100"
+        android:title="clear low priority"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/clearmedium"
+        android:orderInCategory="100"
+        android:title="clear medium priority"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/clearhigh"
+        android:orderInCategory="100"
+        android:title="clear high priority"
+        app:showAsAction="never" />
+
+</menu>
